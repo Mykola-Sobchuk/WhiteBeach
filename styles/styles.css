@@ -1,0 +1,116 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* --------- Header syles ------------------------ */
+.conatainer {
+  max-width: 335;
+}
+.header-container {
+  padding: 20px 0px 0px 0px;
+  width: 375px;
+  height: 74px;
+}
+.nav-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.nav-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+/* ----------------------- Hero-section styles ------------------------- */
+.hero-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* ----------------------- Menu section styles ----------------------------------- */
+.menu-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.menu-title-catalog {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+}
+/* ---------------------- footer styles ---------------------------- */
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  display: flex;
+  gap: 35px;
+}
